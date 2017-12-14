@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_dark">
+    <ImageView
+        android:src="@drawable/BNLogoTop"
+        android:layout_width="match_parent"
+        android:id="@+id/imageView1"
+        android:layout_height="0dp"
+        android:layout_weight="20"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="25.0dp"
+        android:layout_marginTop="25.0dp" />
+    <Button
+        android:text="Login to selected wallet"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:id="@+id/btnLogin"
+        android:background="@drawable/BNWallet_Button_Style"
+        android:layout_weight="20"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textColor="#ffffff"
+        android:textSize="15sp"
+        android:clickable="true" />
+    <Button
+        android:text="Load Different Wallet"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:id="@+id/btnLoadWallet"
+        android:background="@drawable/BNWallet_Button_Style"
+        android:layout_weight="20"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textColor="#ffffff"
+        android:textSize="15sp"
+        android:clickable="true"
+        android:layout_marginTop="10.0dp" />
+    <ImageView
+        android:src="@drawable/BNWalletNewLogo"
+        android:layout_width="match_parent"
+        android:id="@+id/imageView1"
+        android:layout_height="0dp"
+        android:layout_weight="40"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="25.0dp"
+        android:layout_marginTop="25.0dp" />
+</LinearLayout>

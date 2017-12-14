@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="100"
+    android:background="@android:color/background_dark">
+    <ImageView
+        android:src="@drawable/BNLogoTop"
+        android:layout_width="match_parent"
+        android:id="@+id/imageView1"
+        android:layout_height="0dp"
+        android:layout_weight="20"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="25.0dp"
+        android:layout_marginTop="15.0dp" />
+    <EditText
+        android:id="@+id/NewGenWalletPassPhrase"
+        android:layout_width="match_parent"
+        android:layout_height="80.0dp"
+        android:background="@drawable/edit_text_style"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:hint="PassPhrase"
+        android:paddingLeft="10dp"
+        android:textColor="#000"
+        android:textColorHint="@android:color/darker_gray"
+        android:textIsSelectable="true" />
+    <TextView
+        android:text="Please copy the passphrase and keep it somewhere safe!"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView1"
+        android:textColor="@android:color/background_light"
+        android:layout_marginLeft="15.0dp"
+        android:layout_marginRight="7.5dp"
+        android:layout_marginBottom="5.0dp" />
+    <Button
+        android:text="Save"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:id="@+id/btnSaveNewPassphraseWallet"
+        android:background="@drawable/BNWallet_Button_Style"
+        android:layout_weight="20"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textColor="#ffffff"
+        android:textSize="15sp"
+        android:clickable="true"
+        android:layout_marginBottom="14.5dp" />
+    <Button
+        android:text="Generate New Passphrase"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:id="@+id/btnNewPassphraseGenerator"
+        android:background="@drawable/BNWallet_Button_Style"
+        android:layout_weight="20"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textColor="#ffffff"
+        android:textSize="15sp"
+        android:clickable="true"
+        android:layout_marginBottom="14.5dp" />
+    <ImageView
+        android:src="@drawable/BNWalletNewLogo"
+        android:layout_width="match_parent"
+        android:id="@+id/imageView1"
+        android:layout_height="0dp"
+        android:layout_weight="35"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="25.0dp"
+        android:layout_marginTop="0.0dp" />
+</LinearLayout>

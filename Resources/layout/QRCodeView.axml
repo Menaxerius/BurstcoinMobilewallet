@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:minWidth="25px"
+    android:minHeight="25px"
+    android:background="@android:color/background_dark">
+    <ImageView
+        android:src="@drawable/BNLogoTop"
+        android:layout_width="match_parent"
+        android:id="@+id/imageView1"
+        android:layout_height="0dp"
+        android:layout_weight="20"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="25.0dp"
+        android:layout_marginTop="15.0dp" />
+    <TextView
+        android:text="Burst Address"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_weight="15"
+        android:layout_height="0dp"
+        android:id="@+id/txtQRBurstAddress"
+        android:textColor="@android:color/background_light"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textIsSelectable="true" />
+    <ImageView
+        android:src="@android:drawable/ic_menu_gallery"
+        android:layout_width="match_parent"
+        android:layout_height="283.0dp"
+        android:id="@+id/qrCodeView"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10.0dp"
+        android:layout_marginTop="10.0dp" />
+    <Button
+        android:text="OK"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:id="@+id/btnOK"
+        android:background="@drawable/BNWallet_Button_Style"
+        android:layout_weight="20"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textColor="#ffffff"
+        android:textSize="15sp"
+        android:clickable="true" />
+    <ImageView
+        android:src="@drawable/BNWalletNewLogo"
+        android:layout_width="match_parent"
+        android:id="@+id/imageView1"
+        android:layout_height="0dp"
+        android:layout_weight="35"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="25.0dp"
+        android:layout_marginTop="25.0dp" />
+</LinearLayout>

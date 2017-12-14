@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:minWidth="25px"
+    android:minHeight="25px"
+    android:weightSum="100"
+    android:background="@android:color/background_dark">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:weightSum="100"
+        android:background="@android:color/background_dark"
+        android:layout_marginRight="1.5dp"
+        android:layout_marginBottom="0.0dp">
+        <TextView
+            android:text="Wallet Name"
+            android:layout_width="0dp"
+            android:layout_weight="35"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/holo_blue_light"
+            android:id="@+id/textWalName"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="0.0dp" />
+        <TextView
+            android:text="Wallet Address"
+            android:layout_width="0dp"
+            android:layout_weight="65"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/holo_blue_light"
+            android:id="@+id/textWalAddress"
+            android:layout_marginLeft="10.0dp" />
+    </LinearLayout>
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="303.0dp"
+        android:id="@+id/lstUserAccounts"
+        android:background="@android:color/background_dark"
+        android:clickable="true" />
+    <Button
+        android:text="Add New Wallet"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:id="@+id/btnAddNewWallet"
+        android:background="@drawable/BNWallet_Button_Style"
+        android:layout_weight="20"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textColor="#ffffff"
+        android:textSize="15sp"
+        android:clickable="true" />
+    <Button
+        android:text="New Burst User"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:id="@+id/btnNewUser"
+        android:background="@drawable/BNWallet_Button_Style"
+        android:layout_weight="20"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textColor="#ffffff"
+        android:textSize="15sp"
+        android:clickable="true"
+        android:layout_marginTop="10.0dp" />
+    <ImageView
+        android:src="@drawable/BNWalletNewLogo"
+        android:layout_width="match_parent"
+        android:id="@+id/imageView1"
+        android:layout_height="0dp"
+        android:layout_weight="65"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="25.0dp"
+        android:layout_marginTop="25.0dp" />
+</LinearLayout>

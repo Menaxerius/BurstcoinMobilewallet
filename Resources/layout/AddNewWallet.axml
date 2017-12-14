@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="100"
+    android:background="@android:color/background_dark">
+    <ImageView
+        android:src="@drawable/BNLogoTop"
+        android:layout_width="match_parent"
+        android:id="@+id/imageView1"
+        android:layout_height="0dp"
+        android:layout_weight="20"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="25.0dp"
+        android:layout_marginTop="15.0dp" />
+    <EditText
+        android:inputType="textPassword"
+        android:id="@+id/NewWalletPassPhrase"
+        android:layout_width="match_parent"
+        android:layout_height="45.0dp"
+        android:background="@drawable/edit_text_style"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:hint="PassPhrase"
+        android:paddingLeft="10dp"
+        android:textColor="#000"
+        android:textColorHint="@android:color/darker_gray"
+         />
+    <Button
+        android:text="Save"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:id="@+id/btnSaveNewWallet"
+        android:background="@drawable/BNWallet_Button_Style"
+        android:layout_weight="20"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textColor="#ffffff"
+        android:textSize="15sp"
+        android:clickable="true"
+        android:layout_marginBottom="14.5dp" />
+    <ImageView
+        android:src="@drawable/BNWalletNewLogo"
+        android:layout_width="match_parent"
+        android:id="@+id/imageView1"
+        android:layout_height="0dp"
+        android:layout_weight="50"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="25.0dp"
+        android:layout_marginTop="25.0dp" />
+</LinearLayout>

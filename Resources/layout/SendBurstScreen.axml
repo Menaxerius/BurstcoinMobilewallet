@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_dark">
+    <ImageView
+        android:src="@drawable/BNLogoTop"
+        android:layout_width="match_parent"
+        android:id="@+id/imageView1"
+        android:layout_height="0dp"
+        android:layout_weight="20"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="25.0dp"
+        android:layout_marginTop="15.0dp" />
+    <EditText
+        android:id="@+id/sendBurstAddress"
+        android:layout_width="match_parent"
+        android:layout_height="45.0dp"
+        android:background="@drawable/edit_text_style"
+        android:layout_marginBottom="5.0dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="5.0dp"
+        android:hint="Burst Address"
+        android:paddingLeft="10dp"
+        android:textColor="#000"
+        android:textColorHint="@android:color/darker_gray" />
+    <Button
+        android:text="Scan QR Code"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:id="@+id/btnSendQRCode"
+        android:background="@drawable/BNWallet_Button_Style"
+        android:layout_weight="20"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textColor="#ffffff"
+        android:textSize="15sp"
+        android:clickable="true" />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout1"
+        android:layout_marginRight="18.5dp">
+        <TextView
+            android:text="Amount of Burst to send"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/textView1"
+            android:textColor="@android:color/background_light"
+            android:layout_marginTop="10.5dp"
+            android:layout_marginLeft="20.5dp"
+            android:layout_marginRight="0.5dp" />
+        <EditText
+            android:id="@+id/sendAmount"
+            android:background="@drawable/edit_text_style"
+            android:hint="Amount"
+            android:paddingLeft="10dp"
+            android:textColor="#000"
+            android:textColorHint="@android:color/darker_gray"
+            android:inputType="numberDecimal"
+            android:clickable="false"
+            android:editable="false"
+            android:layout_width="139.5dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="7.0dp"
+            android:layout_marginBottom="0.0dp"
+            android:layout_marginTop="5.0dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout1"
+        android:layout_marginRight="18.5dp">
+        <TextView
+            android:text="Fee - Minimum is 1 Burst"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="wrap_content"
+            android:layout_height="33.0dp"
+            android:id="@+id/textView1"
+            android:textColor="@android:color/background_light"
+            android:layout_marginTop="5.5dp"
+            android:layout_marginLeft="20.5dp"
+            android:layout_marginRight="0.5dp" />
+        <EditText
+            android:id="@+id/sendFee"
+            android:background="@drawable/edit_text_style"
+            android:hint="Fee"
+            android:paddingLeft="10dp"
+            android:textColor="#000"
+            android:textColorHint="@android:color/darker_gray"
+            android:inputType="numberDecimal"
+            android:clickable="false"
+            android:editable="false"
+            android:layout_width="139.5dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="4.5dp"
+            android:layout_marginBottom="0.0dp"
+            android:text="1.0"
+            android:layout_marginTop="5.0dp" />
+    </LinearLayout>
+    <EditText
+        android:id="@+id/sendMessage"
+        android:layout_width="match_parent"
+        android:layout_height="45.0dp"
+        android:background="@drawable/edit_text_style"
+        android:layout_marginBottom="5.0dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="5.0dp"
+        android:hint="Message"
+        android:paddingLeft="10dp"
+        android:textColor="#000"
+        android:textColorHint="@android:color/darker_gray" />
+    <CheckBox
+        android:text="Encrypt Message"
+        android:textColor="@android:color/background_light"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/cbEncryptMessage"
+        android:layout_marginLeft="16dp"
+        android:clickable="true"
+        android:buttonTint="#3d5eab" />
+    <Button
+        android:text="View QR Code"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:id="@+id/btnViewQRCode"
+        android:background="@drawable/BNWallet_Button_Style"
+        android:layout_weight="20"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textColor="#ffffff"
+        android:textSize="15sp"
+        android:clickable="true"
+        android:layout_marginTop="5.0dp"
+        android:layout_marginBottom="5.0dp" />
+    <Button
+        android:text="Send"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:id="@+id/btnSend"
+        android:background="@drawable/BNWallet_Button_Style"
+        android:layout_weight="20"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textColor="#ffffff"
+        android:textSize="15sp"
+        android:clickable="true"
+        android:layout_marginBottom="14.5dp" />
+</LinearLayout>
